@@ -4,18 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2c22e66-ec58-48b7-a9a6-b1d8565e392a" name="Changes" comment="" />
+    <list default="true" id="b2c22e66-ec58-48b7-a9a6-b1d8565e392a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLfiles/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XMLfiles/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browserFactory/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browserFactory/BrowserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/ConfigReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/CustomDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/CustomDataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/ExcelReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/ExcelReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listeners/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listeners/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listeners/ExtentTestNGITestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listeners/ExtentTestNGITestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/CreateCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/CreateCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdata/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/TestData.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3420jX9DbWkheaxBrrO28Cn7pIo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,9 +57,52 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testnggroup.xml">
+    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testnggroup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/testnggroup.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testnggroup.xml" />
+        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml (1)" />
+        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,5 +113,28 @@
       <updated>1760396496231</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

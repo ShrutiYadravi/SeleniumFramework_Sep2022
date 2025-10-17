@@ -13,22 +13,51 @@ public class ConfigReader
 	{
 		
 		Properties pro=new Properties();
+
+
 		
-		try 
+//		try
+//		{
+//			//old code by Mukesh- pro.load(new FileInputStream(new File(System.getProperty("user.dir")+"/config/config.properties")));
+//			pro.load(new FileInputStream(new File(System.getProperty("user.dir")+"/Config/config.properties")));
+//
+//		} catch (FileNotFoundException e) {
+//
+//			System.out.println("Could not find the file "+e.getMessage());
+//
+//		} catch (IOException e) {
+//			System.out.println("Could not load the file "+e.getMessage());
+//		}
+//
+//		String value= pro.getProperty(key);
+//
+//		return value;
+//	}
+//
+
+
+		String filePath = System.getProperty("user.dir") + "/Config/config.properties"; // or "/config/config.properties" depending on folder
+
+		System.out.println("Loading config file from: " + filePath);  // <-- debug line
+
+		try
 		{
-			pro.load(new FileInputStream(new File(System.getProperty("user.dir")+"/config/config.properties")));
-		} catch (FileNotFoundException e) {
-			
-			System.out.println("Could not find the file "+e.getMessage());
-			
-		} catch (IOException e) {
-			System.out.println("Could not load the file "+e.getMessage());
+			pro.load(new FileInputStream(new File(filePath)));
 		}
-			
-		String value= pro.getProperty(key);
-		
+		catch (FileNotFoundException e)
+		{
+			System.out.println("Could not find the file: " + e.getMessage());
+		}
+		catch (IOException e)
+		{
+			System.out.println("Could not load the file: " + e.getMessage());
+		}
+
+		String value = pro.getProperty(key);
+
+		System.out.println("Value for key '" + key + "' = " + value);  // <-- debug line
+
 		return value;
 	}
-	
 
 }

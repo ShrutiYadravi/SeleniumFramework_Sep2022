@@ -2,29 +2,32 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class HomePage {
 
 	WebDriver driver;
-	
-	public HomePage(WebDriver driver)
-	{
-		this.driver=driver;
+	WebDriverWait wait; // <-- declare wait here
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // initialize wait
 	}
-	
-	By signOut=By.xpath("//button[normalize-space()='Sign out']");
-	
-	By welcomeMsg=By.xpath("//h2[contains(text(),'Java Selenium')]");
-	
-	public void clickOnSignOut()
-	{
-		driver.findElement(signOut).click();
+
+	// Locators
+	By welcomeMsgDashboard = By.xpath("//h6[normalize-space()='Dashboard']");
+	By userDropDown = By.xpath("//p[@class='oxd-userdropdown-name']"); // fixed xpath
+	By logOut = By.xpath("//a[normalize-space()='Logout']");
+
+	// Method to click sign out
+	public void clickOnSignOut() {
+		wait.until(ExpectedConditions.elementToBeClickable(userDropDown)).click();
+		wait.until(ExpectedConditions.elementToBeClickable(logOut)).click();
 	}
-	
-	public String getWelcomeMsg()
-	{
-		return driver.findElement(signOut).getText();
+
+	public String getWelcomeMsg() {
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(welcomeMsgDashboard)).getText();
 	}
-	
-	
 }

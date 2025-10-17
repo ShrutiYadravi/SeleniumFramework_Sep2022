@@ -12,13 +12,13 @@ public class LoginPage {
 		this.driver=driver;
 	}
 	
-	By user=By.id("email1");
+	By user=By.name("username");
 	
-	By pass=By.name("password1");
+	By pass=By.name("password");
 	
-	By login=By.xpath("//button[normalize-space()='Sign in']");
+	By login=By.xpath("//button[normalize-space()='Login']");
 	
-	By loginHeader=By.xpath("//h2[normalize-space()='Sign In']");
+	By loginHeader=By.xpath("//h5[normalize-space()='Login']");
 	
 	public void loginToApplication(String username,String password)
 	{

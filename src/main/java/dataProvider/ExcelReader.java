@@ -24,7 +24,11 @@ public class ExcelReader
 		try 
 		{
 			// load excel 
-			wb=new XSSFWorkbook(new FileInputStream(new File(System.getProperty("user.dir")+"/testdata/TestData.xlsx")));
+			wb = new XSSFWorkbook(
+					new FileInputStream(
+							new File(System.getProperty("user.dir") + "/TestData/TestData.xlsx")
+					)
+			);
 			
 		// load sheet	
 		   XSSFSheet sheet=wb.getSheet(sheetName);

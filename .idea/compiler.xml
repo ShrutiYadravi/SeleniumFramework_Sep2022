@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HybridFramework" />
+        <module name="Framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HybridFramework" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
