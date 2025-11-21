@@ -20,7 +20,7 @@ public class LoginTest extends BaseClass
 			
 		HomePage home=new HomePage(driver);
 		
-		Assert.assertTrue(home.getWelcomeMsg().contains("Sign"));
+		Assert.assertTrue(home.getWelcomeMsg().contains("Dashboard"));
 		
 		home.clickOnSignOut();
 		

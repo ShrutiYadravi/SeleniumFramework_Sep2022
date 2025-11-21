@@ -5,28 +5,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c22e66-ec58-48b7-a9a6-b1d8565e392a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XMLfiles/AddAdmin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XMLfiles/Myinfovalidation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XMLfiles/adminPageSearch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Automation_15_49_19_14_11_2025.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/AdminBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AdminAddPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HyperLinkPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MyInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PIMScrollDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PIMpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TimeRighClickAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/AddAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/AdminSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/MyInfoValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/PIMSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/loginPage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XMLfiles/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XMLfiles/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_00_00_16_17_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_00_02_41_17_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_00_09_55_17_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_00_15_57_17_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_00_24_51_17_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_06_49_35_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_06_57_49_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_03_17_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_07_54_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_12_47_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_20_19_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_22_23_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_24_26_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_25_29_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_07_26_41_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_08_50_45_28_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_08_59_09_28_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_09_00_51_28_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_11_36_40_15_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_13_48_57_28_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_13_50_22_28_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_14_18_16_15_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_14_25_41_15_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_14_31_16_15_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_14_37_17_15_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_14_40_45_15_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_14_48_28_22_04_2023.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_15_14_08_24_07_2023.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_16_02_00_14_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_17_42_32_20_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_17_43_47_29_07_2023.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_21_37_24_23_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_21_40_05_23_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_21_41_25_23_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_22_03_49_23_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_22_22_25_23_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_22_27_43_23_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_23_31_59_16_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_23_36_38_19_08_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_23_44_53_16_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_23_46_07_16_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_23_49_41_16_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_23_51_43_16_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Automation_23_58_27_16_10_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/browserFactory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browserFactory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/CustomDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/CustomDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/ExtentTestNGITestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/ExtentTestNGITestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/browserFactory/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browserFactory/BrowserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/ConfigReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/CustomDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/CustomDataProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/ExcelReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/ExcelReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/helper/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Utility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/listeners/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listeners/ExtentManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/listeners/ExtentTestNGITestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listeners/ExtentTestNGITestListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/CreateCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/CreateCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-testcases.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-testcases.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testdata/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/TestData.xlsx" afterDir="false" />
     </list>
@@ -53,21 +143,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testnggroup.xml">
-    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/AddAdmin.xml">
+    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/AddAdmin.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Framework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/AddAdmin.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -75,8 +166,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridFramework" />
+    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/Myinfovalidation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/Myinfovalidation.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/adminPageSearch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/adminPageSearch.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLfiles/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -97,9 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testnggroup.xml" />
+        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/AddAdmin.xml" />
+        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/Myinfovalidation.xml" />
         <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml (1)" />
-        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testng.xml" />
+        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/adminPageSearch.xml" />
+        <item itemvalue="TestNG./Users/applemacbookpro/Documents/SeleniumGuideMukesh/HybridFrameworkSep2022/XMLfiles/testnggroup.xml" />
       </list>
     </recent_temporary>
   </component>

@@ -1,1 +1,12 @@
+testcases/CreateCatergory.class
 testcases/LoginTest.class
+StepDefination/LoginSteps.class
+testcases/Logintest1.class
+testcases/AddAdmin.class
+testcases/MyInfoValidation.class
+testcases/Test500.class
+testcases/HomePageTest.class
+testcases/CreateCourse.class
+testcases/usercreationtest.class
+Saucetestcases/Saucelogintest.class
+testcases/AdminSearchTest.class

@@ -1,0 +1,10 @@
+<suite name="Suite">
+    <listeners>
+        <listener class-name="listeners.ExtentTestNGITestListener"/>
+    </listeners>
+    <test name="AddAdminTest">
+        <classes>
+            <class name="testcases.AddAdmin"/>
+        </classes>
+    </test>
+</suite>
